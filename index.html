@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Fire Tv</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <header>
+        <div class="logo">
+            <h1><i class="fa-solid fa-fire"></i></h1>
+        </div>
+        <div class="burger-container" onclick="menuShow()">
+            <div id="lineMenu" class="line1"></div>
+            <div id="lineMenu2" class="line2"></div>
+            <div id="lineMenu3" class="line3"></div>
+        </div>
+        <ul class="items-container">
+            <li>
+                <a href="#lives">Lives</a>
+            </li>
+            <li>
+                <a href="#jogos">Catégorias</a>
+            </li>
+            <li>
+                <a href="#top-global">Top global</a>
+            </li>
+            <li>
+               <div class="search-box">
+                 <form action="">
+                    <input type="text" placeholder="Ache seu stramer" name="search" id="srch">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                 </form>
+               </div>
+            </li>
+        </ul>
+    </header>
+
+    <div class="background">
+    <div class="titulo-pre">
+        <h1>Procurar</h1>
+    </div>
+     <main class="preferencia" id="jogos">
+        <section class="cards">
+            <div class="card-img">
+                <i class="fa-solid fa-gamepad"></i>
+            </div>
+            <h1>Jogos</h1>
+        </section>
+        <section class="cards">
+            <div class="card-img">
+                <i class="fa-solid fa-gamepad"></i>
+            </div>
+            <h1>VidaReal</h1>
+        </section>
+        <section class="cards">
+            <div class="card-img">
+                <i class="fa-solid fa-gamepad"></i>
+            </div>
+            <h1>Esportes</h1>
+        </section>
+        <section class="cards">
+            <div class="card-img">
+                <i class="fa-solid fa-gamepad"></i>
+            </div>
+            <h1>Musica</h1>
+        </section>
+     </main>
+    </div>
+
+    <section class="container">
+        <div class="container-cat">
+            <div class="container-img">
+            <img src="https://s2-techtudo.glbimg.com/iSK0YnLZRIjMcLcY2vct9xrE63U=/0x0:696x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/s/6/6oNWDSQkO6lkGKQSKeNg/free-fire.jpg" alt="">
+            </div>
+            <div class="container-text">
+            <h1>Free fire</h1>
+            <p>1.000 espectadores</p>
+            <span>Gênero: Game</span>
+            </div>
+        </div>
+        <div class="container-cat">
+            <div class="container-img">
+            <img src="https://i0.wp.com/pedagogiaparaconcurseiros.com.br/wp-content/uploads/2020/08/podcast-logo.jpg?fit=1000%2C800&ssl=1" alt="">
+            </div>
+            <div class="container-text">
+            <h1>Podcast</h1>
+            <p>1.000 espectadores</p>
+            <span>Gênero: Conversa</span>
+            </div>
+        </div>
+        <div class="container-cat">
+            <div class="container-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIJzNG0XHp5PXZZgs1PqKpMEN4bZIDCReAV3MNgNyao2xHAj4HJdfKp7cGYs9zJK2ndVM&usqp=CAU" alt="">
+            </div>
+            <div class="container-text">
+            <h1>Gta rp</h1>
+            <p>1.000 espectadores</p>
+            <span>Gênero: Game</span>
+            </div>
+        </div>
+        <div class="container-cat">
+            <div class="container-img">
+                <img src="https://img.freepik.com/fotos-premium/dia-internacional-do-esporte-6-de-abril_10221-18936.jpg" alt="">
+            </div>
+            <div class="container-text">
+            <h1>Esporte</h1>
+            <p>1.000 espectadores</p>
+            <span>Gênero: esporte</span>
+            </div>
+        </div>
+        <div class="container-cat">
+            <div class="container-img">
+                <img src="https://img.freepik.com/fotos-premium/dia-internacional-do-esporte-6-de-abril_10221-18936.jpg" alt="">
+            </div>
+            <div class="container-text">
+            <h1>Gta rp</h1>
+            <p>1.000 espectadores</p>
+            <span>Gênero: Game</span>
+            </div>
+        </div>
+        <div class="container-cat">
+            <div class="container-img">
+                <img src="https://img.freepik.com/fotos-premium/dia-internacional-do-esporte-6-de-abril_10221-18936.jpg" alt="">
+            </div>
+            <div class="container-text">
+            <h1>Gta rp</h1>
+            <p>1.000 espectadores</p>
+            <span>Gênero: Game</span>
+            </div>
+        </div>
+    </section>
+
+    <main class="card-live" id="lives">
+        <section class="live">
+            <div class="live-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfsRkgcT45KmHWhdUkOBOTrERe6SQbjO0T_ryBC90FY1KxgnHAXpA0sgK7JP9xT0zy1Fg&usqp=CAU" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>2 MI espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://pm1.aminoapps.com/8543/4f32d72b07707f5aa9ea3e7c86341d5f3b103139r1-329-407v2_00.jpg" alt="">
+                    <h1>Venha jogar Gta com migo!</h1>
+                </div>
+                <p>Neymar</p>
+                <span>GTA</span>
+                <span>Brasil</span>
+            </div>
+        </section>
+
+        <section class="live">
+            <div class="live-img">
+                <img src="https://clips-media-assets2.twitch.tv/40898343965-offset-7796-preview-480x272.jpg" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>100mil espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/c07acddc-1e1b-479f-97c4-09636f80e857-profile_image-300x300.png" alt="">
+                    <h1>Gtazinho RP!</h1>
+                </div>
+                <p>Loud victor</p>
+                <span>GTA</span>
+                <span>Brasil</span>
+            </div>
+        </section>
+
+        <section class="live">
+            <div class="live-img">
+                <img src="https://f.i.uol.com.br/fotografia/2021/12/03/163856781761aa8f893139f_1638567817_3x2_rt.jpg" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>1.000 espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://i.scdn.co/image/ab6765630000ba8ada018f5c18ecebc5d3ff3b59" alt="">
+                    <h1>Bate papo com!</h1>
+                </div>
+                <p>Podpah</p>
+                <span>Conversa</span>
+                <span>Brasil</span>
+            </div>
+        </section>
+
+        <section class="live">
+            <div class="live-img">
+                <img src="https://i.ytimg.com/vi/Q1B2BVJ7DEM/maxresdefault.jpg" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>1.000 espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/64d44235-1dee-4bca-95da-bee1ee96eea3-profile_image-300x300.png" alt="">
+                    <h1>Jogando God of War!</h1>
+                </div>
+                <p>Alanzoka</p>
+                <span>God of War</span>
+                <span>Brasil</span>
+            </div>
+        </section>
+
+        <section class="live">
+            <div class="live-img">
+                <img src="https://img.olhardigital.com.br/wp-content/uploads/2021/07/FIFA-22.jpg" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>1.000 espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/008/302/516/small/eps10-green-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-white-background-free-vector.jpg" alt="">
+                    <h1>Fifa Online</h1>
+                </div>
+                <p>DINO GAMER</p>
+                <span>FIFA</span>
+                <span>Brasil</span>
+            </div>
+        </section>
+
+        <section class="live">
+            <div class="live-img">
+                <img src="https://i.redd.it/xheiq2bt2m861.png" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>1.000 espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://img.quizur.com/f/img60cb842dad7842.24331807.jpg?lastEdited=1623950387" alt="">
+                    <h1>Vendo TikTokzinho</h1>
+                </div>
+                <p>Piuzinho</p>
+                <span>TikTok</span>
+                <span>Brasil</span>
+            </div>
+        </section>
+
+
+        <section class="live ">
+            <div class="live-img">
+                <img src="https://i.ytimg.com/vi/j55gbUSFFac/maxresdefault.jpg" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>30mil espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://yt3.googleusercontent.com/UZ0fAl93wBMHGjKCUu2WIv4USmRGhRPSSxkLvIVWyrrnd92FzCUBy5N9Jh1cf55OdnsRIKTa=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+                    <h1>Omegle in the server Brazilian</h1>
+                </div>
+                <p> Speed</p>
+                <span>Omegle</span>
+                <span>EUA</span>
+            </div>
+        </section> 
+
+                <section class="live" >
+            <div class="live-img">
+                <img src="data:image/jpeg;base64,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" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>1.000 espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://nerdlicious.com.br/wp-content/uploads/2020/05/alok-free-fire-live-1280x720.jpg" alt="">
+                    <h1>Jogue FreeFire com migo!</h1>
+                </div>
+                <p>ReiDCapa</p>
+                <span>Free Fire</span>
+                <span>Brasil</span>
+            </div>
+        </section> 
+
+        <section class="live mostra-mais">
+            <div class="live-img">
+                <img src="https://cdn-0001.qstv.on.epicgames.com/yvqFSXHRWyfRXMAlPa/image/landscape_comp.jpeg">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>1.000 espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/008/302/516/small/eps10-green-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-white-background-free-vector.jpg" alt="">
+                    <h1>Fortnite de cria</h1>
+                </div>
+                <p>ApelaFort</p>
+                <span>Fortnite</span>
+                <span>Brasil</span>
+            </div>
+        </section> 
+
+        <section class="live mostra-mais">
+            <div class="live-img">
+              <img src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw2/home/reveal/new-era/new_era-mw2.jpg" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>1.000 espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/008/302/516/small/eps10-green-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-white-background-free-vector.jpg" alt="">
+                    <h1>Call of duty com vocês!!</h1>
+                </div>
+                <p>Game War</p>
+                <span>Call od duty</span>
+                <span>Brasil</span>
+            </div>
+        </section> 
+
+        <section class="live mostra-mais">
+            <div class="live-img">
+              <img src="https://tudodobem.ig.com.br/wp-content/uploads/2023/01/asmr.jpg" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>1.000 espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                 <img src="data:image/jpeg;base64,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" alt="">
+                    <h1>Relaxe com ASMR</h1>
+                </div>
+                <p>ASMR Relax</p>
+                <span>ASMR</span>
+                <span>Brasil</span>
+            </div>
+        </section> 
+
+        <section class="live mostra-mais">
+            <div class="live-img">
+                <img src="https://i.ytimg.com/vi/j55gbUSFFac/maxresdefault.jpg" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>30mil espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://yt3.googleusercontent.com/UZ0fAl93wBMHGjKCUu2WIv4USmRGhRPSSxkLvIVWyrrnd92FzCUBy5N9Jh1cf55OdnsRIKTa=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+                    <h1>Omegle in the server Brazilian</h1>
+                </div>
+                <p> Speed</p>
+                <span>Omegle</span>
+                <span>EUA</span>
+            </div>
+        </section> 
+    </main>
+
+
+    <section class="slider">
+        <div class="slider-content">
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+            <input type="radio" name="btn-radio" id="radio4">
+            <input type="radio" name="btn-radio" id="radio5">
+            
+            <div class="slide-box primeiro">
+                <img src="https://i.ytimg.com/vi/WzunxpDIlOk/maxresdefault.jpg" alt="">
+                <div class="content-slide">
+                   <a href=""> <img src="https://gamerview.uai.com.br/wp-content/uploads/2020/06/free_fire_nobru_final_level.jpg" alt=""></a>
+                    <h1>Nobru</h1>
+                </div>
+            </div>
+            <div class="slide-box">
+                <img src="https://staticg.sportskeeda.com/editor/2022/09/062fa-16628706867603-1920.jpg?w=840" alt="">
+                <div class="content-slide">
+                    <a href=""><img src="https://i1.sndcdn.com/artworks-38TTCgO6n0pmpzJZ-n8qZwA-t500x500.jpg" alt=""></a>
+                     <h1>Rei do Mine</h1>
+                 </div>
+            </div>
+            <div class="slide-box">
+                <img src="https://i.ytimg.com/vi/UQwx8I0uSEI/maxresdefault.jpg" alt="">
+                <div class="content-slide">
+                    <a href=""><img src="https://static.vecteezy.com/system/resources/thumbnails/008/302/516/small/eps10-green-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-white-background-free-vector.jpg" alt=""></a>
+                     <h1>Vini gamer</h1>
+                 </div>
+            </div>
+            <div class="slide-box">
+             <img src="https://golightstream.com/wp-content/uploads/2022/11/Live-Podcasting-1024x683.jpg" alt="">
+             <div class="content-slide">
+                <a href=""><img src="https://podcastle.ai/blog/content/images/2023/07/Live-Podcast-2.webp" alt=""></a>
+                 <h1>Podcast em Dia</h1>
+             </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <div class="titulo-top" id="top-global">
+        <h1>Mais assistidos do momento</h1>
+    </div>
+    <div class="top-global">
+        <div class="list-top">
+            <div class="user-top" style="order: 1;">
+                <img src="https://pm1.aminoapps.com/8543/4f32d72b07707f5aa9ea3e7c86341d5f3b103139r1-329-407v2_00.jpg">
+                <h1>Neymar</h1>
+               <div class="espectadores">
+                <span>2mi simutâneas</span>
+               </div>
+            </div>      
+        </div>
+        <div class="list-top">
+            <div class="user-top" style="order: 3;">
+                <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/c07acddc-1e1b-479f-97c4-09636f80e857-profile_image-300x300.png" alt="">
+                <h1>Coringa</h1>
+               <div class="espectadores">
+                <span>100mil simutâneas</span>
+               </div>
+            </div>   
+        </div>
+           <div class="list-top">
+            <div class="user-top" style="order: 4;">
+                <img src="https://gamerview.uai.com.br/wp-content/uploads/2020/06/free_fire_nobru_final_level.jpg" alt="">
+                <h1>NOBRU</h1>
+               <div class="espectadores">
+                <span>46mil simutâneas</span>
+               </div>
+            </div>   
+        </div>
+        <div class="list-top">
+            <div class="user-top" style="order: 2;">
+                <img src="https://yt3.googleusercontent.com/UZ0fAl93wBMHGjKCUu2WIv4USmRGhRPSSxkLvIVWyrrnd92FzCUBy5N9Jh1cf55OdnsRIKTa=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+                <h1>Speed</h1>
+               <div class="espectadores">
+                <span>30mil simutâneas</span>
+               </div>
+            </div>   
+        </div>
+        <div class="back-top"></div>
+    </div>
+
+    
+    <main class="card-live">
+        <section class="live">
+            <div class="live-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfsRkgcT45KmHWhdUkOBOTrERe6SQbjO0T_ryBC90FY1KxgnHAXpA0sgK7JP9xT0zy1Fg&usqp=CAU" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>1.000 espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://pm1.aminoapps.com/8543/4f32d72b07707f5aa9ea3e7c86341d5f3b103139r1-329-407v2_00.jpg" alt="">
+                    <h1>Venha jogar Gta com migo!</h1>
+                </div>
+                <p>Neymar</p>
+                <span>GTA</span>
+                <span>Brasil</span>
+            </div>
+        </section>
+      
+        <section class="live">
+            <div class="live-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfsRkgcT45KmHWhdUkOBOTrERe6SQbjO0T_ryBC90FY1KxgnHAXpA0sgK7JP9xT0zy1Fg&usqp=CAU" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>1.000 espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://pm1.aminoapps.com/8543/4f32d72b07707f5aa9ea3e7c86341d5f3b103139r1-329-407v2_00.jpg" alt="">
+                    <h1>Venha jogar Gta com migo!</h1>
+                </div>
+                <p>Neymar</p>
+                <span>GTA</span>
+                <span>Brasil</span>
+            </div>
+        </section>
+        <section class="live">
+            <div class="live-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfsRkgcT45KmHWhdUkOBOTrERe6SQbjO0T_ryBC90FY1KxgnHAXpA0sgK7JP9xT0zy1Fg&usqp=CAU" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>1.000 espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://pm1.aminoapps.com/8543/4f32d72b07707f5aa9ea3e7c86341d5f3b103139r1-329-407v2_00.jpg" alt="">
+                    <h1>Venha jogar Gta com migo!</h1>
+                </div>
+                <p>Neymar</p>
+                <span>GTA</span>
+                <span>Brasil</span>
+            </div>
+        </section>
+    </main>
+
+    <div class="mostra-mais-live">
+        <h1  onclick="Liberar()">mostra mais</h1>
+    </div>
+    <main class="card-live card-live-mais">
+        <section class="live">
+            <div class="live-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfsRkgcT45KmHWhdUkOBOTrERe6SQbjO0T_ryBC90FY1KxgnHAXpA0sgK7JP9xT0zy1Fg&usqp=CAU" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>1.000 espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://pm1.aminoapps.com/8543/4f32d72b07707f5aa9ea3e7c86341d5f3b103139r1-329-407v2_00.jpg" alt="">
+                    <h1>Venha jogar Gta com migo!</h1>
+                </div>
+                <p>Neymar</p>
+                <span>GTA</span>
+                <span>Brasil</span>
+            </div>
+        </section>
+      
+        <section class="live">
+            <div class="live-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfsRkgcT45KmHWhdUkOBOTrERe6SQbjO0T_ryBC90FY1KxgnHAXpA0sgK7JP9xT0zy1Fg&usqp=CAU" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>1.000 espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://pm1.aminoapps.com/8543/4f32d72b07707f5aa9ea3e7c86341d5f3b103139r1-329-407v2_00.jpg" alt="">
+                    <h1>Venha jogar Gta com migo!</h1>
+                </div>
+                <p>Neymar</p>
+                <span>GTA</span>
+                <span>Brasil</span>
+            </div>
+        </section>
+        <section class="live">
+            <div class="live-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfsRkgcT45KmHWhdUkOBOTrERe6SQbjO0T_ryBC90FY1KxgnHAXpA0sgK7JP9xT0zy1Fg&usqp=CAU" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>1.000 espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://pm1.aminoapps.com/8543/4f32d72b07707f5aa9ea3e7c86341d5f3b103139r1-329-407v2_00.jpg" alt="">
+                    <h1>Venha jogar Gta com migo!</h1>
+                </div>
+                <p>Neymar</p>
+                <span>GTA</span>
+                <span>Brasil</span>
+            </div>
+        </section>
+        <section class="live">
+            <div class="live-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfsRkgcT45KmHWhdUkOBOTrERe6SQbjO0T_ryBC90FY1KxgnHAXpA0sgK7JP9xT0zy1Fg&usqp=CAU" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>1.000 espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://pm1.aminoapps.com/8543/4f32d72b07707f5aa9ea3e7c86341d5f3b103139r1-329-407v2_00.jpg" alt="">
+                    <h1>Venha jogar Gta com migo!</h1>
+                </div>
+                <p>Neymar</p>
+                <span>GTA</span>
+                <span>Brasil</span>
+            </div>
+        </section>
+        <section class="live">
+            <div class="live-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfsRkgcT45KmHWhdUkOBOTrERe6SQbjO0T_ryBC90FY1KxgnHAXpA0sgK7JP9xT0zy1Fg&usqp=CAU" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>1.000 espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://pm1.aminoapps.com/8543/4f32d72b07707f5aa9ea3e7c86341d5f3b103139r1-329-407v2_00.jpg" alt="">
+                    <h1>Venha jogar Gta com migo!</h1>
+                </div>
+                <p>Neymar</p>
+                <span>GTA</span>
+                <span>Brasil</span>
+            </div>
+        </section>
+        <section class="live">
+            <div class="live-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfsRkgcT45KmHWhdUkOBOTrERe6SQbjO0T_ryBC90FY1KxgnHAXpA0sgK7JP9xT0zy1Fg&usqp=CAU" alt="">
+                <div class="live-espec">
+                    <h1>Ao vivo</h1>
+                    <span>1.000 espectadores</span>
+                </div>
+            </div>
+            <div class="live-descri">
+                <div class="live-descri-user">
+                    <img src="https://pm1.aminoapps.com/8543/4f32d72b07707f5aa9ea3e7c86341d5f3b103139r1-329-407v2_00.jpg" alt="">
+                    <h1>Venha jogar Gta com migo!</h1>
+                </div>
+                <p>Neymar</p>
+                <span>GTA</span>
+                <span>Brasil</span>
+            </div>
+        </section>
+    </main>
+
+    <div class="login-inicial">
+        <h1><i class="fa-solid fa-fire"></i>Crie sua conta agora!
+        </h1>
+        <a id="recebe">login</a>
+    </div>
+
+    <section class="login" id="login-fire">
+        <div class="container-login">
+            <div class="titulo-login">
+                <button id="close" onclick="CloseLogin()">X</button>
+                <h1><i class="fa-solid fa-fire"></i> Preencha seus dados</h1>
+            </div>
+            <form id="form-login">
+                <p>Email</p>
+                <input type="email" id="email">
+                <br>
+                <p>senha</p>
+                <input type="password" id="senha">
+                <br>
+             <div class="progresso">
+                <span>1/2</span>
+             </div>
+             <div class="logar">
+                <a href="">Google</a>
+             </div>
+             <input type="button" id="prox" value=">">
+            </form>
+            
+            <div class="progresso-2">
+                <div class="titulo-login-2"> 
+                   <h1>Código enviado ao Gmail</h1>
+                </div>
+               <input type="number"  id="codigo">
+               <br>
+               <span id="checkbox">Concorda com <input type="checkbox" id="cke"></span>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, accusantium corrupti voluptatum hic, quas at aliquid architecto laboriosam vitae quisquam aut magni nihil cum omnis ab, eaque iure deserunt fugit.</p>
+               <div class="progresso">
+                <span>2/2</span>
+              <!-- Finalizar btn-->
+              <button id="prox-final">Finalizar</button>
+             </div>
+            </div>
+
+            <div class="progresso-final">
+                <h1><i class="fa-solid fa-check"></i></h1>
+                <p>Login finalizado</p>
+             </div>
+        <!-- seta LEFT-->
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <h1><i class="fa-solid fa-fire"></i>Fire</h1>
+            <a href="https://github.com/raulcacula">&copy;raulcacula <i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+     
+<script src="fire.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+
+    <script src="https://kit.fontawesome.com/43fd509247.js" crossorigin="anonymous"></script>
+</body>
+</html>
